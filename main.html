@@ -67,6 +67,9 @@
     isDragging = false;
     items.style.cursor = 'grab';
   });
+
+  // Additional code to expose scrollLeft for testing
+  items.getScrollLeft = () => items.scrollLeft;
 </script>
 
   </body>
